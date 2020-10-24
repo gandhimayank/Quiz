@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>This is the best quiz on internet</h1>
+    <form id="quiz" name="quiz">
+        <p>What is the capital of India?</p>
+        <input id="textbox" type="text" name="question1">
+
+        <p>Which among these is a sports brand?</p>
+        <input type="radio" name="question2" id="mc" value="Nike">Nike<br/>
+        <input type="radio" name="question2" id="mc" value="Manyawar">Manyawar<br/>
+
+        <p>What among below is a gearless scooter?</p>
+        <input type="radio" name="question3" id="mc" value="Pulsar">Pulsar<br/>
+        <input type="radio" name="question3" id="mc" value="Activa">Activa<br/>
+
+        <input type="button" value="I'm finished!" id="button" onclick="check();">
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture">
+    </div>
+
+
+  <script src="app.js"></script>  
+</body>
+</html>
